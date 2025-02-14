@@ -6,7 +6,7 @@ const OturmaIzniComponent = () => {
       {/* Hero Section */}
       <div className="p-6 rounded-lg border border-gray-200 shadow-sm bg-white">
         <h2 className="text-3xl font-bold text-primary mb-4">
-          🛂 Oturma İzni ile Türkiye'de Resmi Olarak Yaşayın!
+          {`🛂 Oturma İzni ile Türkiye'de Resmi Olarak Yaşayın!`}
         </h2>
         <p className="text-gray-700">
           Türkiye’de <strong className="text-primary">90 günden fazla</strong>{" "}

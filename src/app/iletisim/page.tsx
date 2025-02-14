@@ -36,17 +36,17 @@ export default function Contact() {
               {/* Sol Sütun: İletişim Bilgileri */}
               <div>
                 <h3 className="text-4xl font-bold text-foreground mb-6">
-                  <span className="text-primary">Yurt Danışmanlık</span> ile
+                  <span className="text-primary">{`Yurt Danışmanlık`}</span> ile
                   İletişime Geçin
                 </h3>
                 <p className="text-gray-600 mb-6">
-                  Yurt Danışmanlık, Türkiye'de oturma izni, çalışma izni,
+                  {`Yurt Danışmanlık, Türkiye'de oturma izni, çalışma izni,
                   vatandaşlık başvuruları, deport kaldırma, yurt dışı vize
                   işlemleri, insani ikamet izni, evlilik ve konsolosluk
                   işlemleri gibi birçok alanda profesyonel danışmanlık hizmeti
                   sunmaktadır. Başvurularınızın sorunsuz ilerlemesi için uzman
                   ekibimizle yanınızdayız. Detaylı bilgi almak ve süreçlerinizi
-                  hızlandırmak için bizimle iletişime geçin.
+                  hızlandırmak için bizimle iletişime geçin.`}
                 </p>
 
                 {/* İletişim Kartları */}

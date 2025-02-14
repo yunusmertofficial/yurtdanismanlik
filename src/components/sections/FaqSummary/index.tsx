@@ -50,19 +50,19 @@ const FaqSummarySection = () => {
                 id="faq-heading"
                 className="text-3xl md:text-4xl font-bold text-foreground mb-4"
               >
-                Sıkça Sorulan Sorular <br className="hidden lg:block" />
-                <span className="text-primary">Yurt Danışmanlık</span>{" "}
+                {`Sıkça Sorulan Sorular`} <br className="hidden lg:block" />
+                <span className="text-primary">{`Yurt Danışmanlık`}</span>{" "}
                 Hizmetleri
               </h2>
               <p className="text-muted-foreground mb-6 text-base md:text-lg">
-                Türkiye'de oturma izni, çalışma izni, vatandaşlık başvurusu ve
+                {`Türkiye'de oturma izni, çalışma izni, vatandaşlık başvurusu ve
                 diğer resmi işlemler hakkında en çok sorulan soruların
-                cevaplarını burada bulabilirsiniz.
+                cevaplarını burada bulabilirsiniz.`}
               </p>
               <p className="text-muted-foreground mb-6 text-base md:text-lg">
-                Size en uygun danışmanlık hizmetini almak için bizimle iletişime
+                {`Size en uygun danışmanlık hizmetini almak için bizimle iletişime
                 geçin. Uzman ekibimiz, başvuru süreçlerinizde size rehberlik
-                edecektir.
+                edecektir.`}
               </p>
             </header>
 

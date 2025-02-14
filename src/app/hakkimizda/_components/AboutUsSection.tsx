@@ -11,29 +11,29 @@ export default function AboutUsSection() {
           {/* Metin Bölümü */}
           <header>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-              Yurt Danışmanlık:{" "}
+              {`Yurt Danışmanlık: `}
               <span className="text-primary">
                 Güvenilir ve Profesyonel Hizmet
               </span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Yurt Danışmanlık, Türkiye'de oturma izni, çalışma izni,
+              {`Yurt Danışmanlık, Türkiye'de oturma izni, çalışma izni,
               vatandaşlık işlemleri, deport kaldırma, yurt dışı vize işlemleri,
               insani ikamet izni, evlilik işlemleri ve konsolosluk hizmetleri
-              gibi alanlarda profesyonel danışmanlık sunan bir firmadır.
+              gibi alanlarda profesyonel danışmanlık sunan bir firmadır.`}
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Uzman ekibimiz, göçmenlik ve yasal süreçlerde geniş deneyime
+              {`Uzman ekibimiz, göçmenlik ve yasal süreçlerde geniş deneyime
               sahiptir. Her başvurunun eksiksiz ve hatasız tamamlanmasını
               sağlamak için titizlikle çalışıyoruz. Danışmanlık hizmetlerimiz
               sayesinde süreçlerinizi hızlı, sorunsuz ve güvenilir bir şekilde
-              yönetebilirsiniz.
+              yönetebilirsiniz.`}
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Amacımız, Türkiye'de yaşamak veya çalışmak isteyen bireylere doğru
+              {`Amacımız, Türkiye'de yaşamak veya çalışmak isteyen bireylere doğru
               bilgi ve rehberlik sunarak resmi işlemlerini kolaylaştırmaktır.
               Yasal prosedürlerde profesyonel destek alarak zamanınızı ve
-              enerjinizi en verimli şekilde kullanabilirsiniz.
+              enerjinizi en verimli şekilde kullanabilirsiniz.`}
             </p>
           </header>
 

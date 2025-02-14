@@ -1,4 +1,4 @@
-import { FaCheckCircle, FaUsers } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa";
 
 const EvlilikIslemleriComponent = () => {
   return (

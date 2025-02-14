@@ -4,7 +4,6 @@ import { Dialog } from "@headlessui/react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaPlus, FaMinus } from "react-icons/fa";
-import { usePathname } from "next/navigation";
 import { links } from "@/utils/data";
 
 const MobileMenu: React.FC<{

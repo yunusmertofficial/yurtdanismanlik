@@ -1,7 +1,7 @@
 import React from "react";
-import { FaPhoneAlt, FaYoutube } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import Link from "next/link";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 export const FooterContact = () => {

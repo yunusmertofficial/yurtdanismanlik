@@ -7,9 +7,7 @@ import ButtonLink from "@/components/ButtonLink";
 import {
   FaDoorOpen,
   FaGavel,
-  FaHeartbeat,
   FaPassport,
-  FaPlaneDeparture,
   FaUserShield,
   FaGlobe,
   FaHandHoldingHeart,
@@ -91,12 +89,12 @@ const Hizmetler = () => {
                 id="hizmetler-title"
                 className="text-4xl font-bold text-foreground"
               >
-                Yurt Danışmanlık{" "}
+                {"Yurt Danışmanlık "}
                 <span className="text-primary">Hizmetleri</span>
               </h2>
               <p className="text-muted-foreground mt-4">
-                Türkiye'de oturum, çalışma izni, vatandaşlık ve diğer resmi
-                işlemleriniz için profesyonel danışmanlık hizmetleri sunuyoruz.
+                {`Türkiye'de oturum, çalışma izni, vatandaşlık ve diğer resmi
+                işlemleriniz için profesyonel danışmanlık hizmetleri sunuyoruz.`}
               </p>
 
               {/* Danışmanlık Hizmetleri Listesi */}

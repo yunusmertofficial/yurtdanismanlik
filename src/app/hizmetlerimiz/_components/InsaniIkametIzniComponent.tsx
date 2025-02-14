@@ -1,4 +1,4 @@
-import { FaCheckCircle, FaUsers } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa";
 
 const InsaniIkametIzniComponent = () => {
   return (
@@ -6,13 +6,13 @@ const InsaniIkametIzniComponent = () => {
       {/* Hero Section */}
       <div className="p-6 rounded-lg border border-gray-200 shadow-sm bg-white">
         <h2 className="text-3xl font-bold text-primary mb-4">
-          İnsani İkamet İzni ile Türkiye'de Güvence Altına Alın!
+          {`İnsani İkamet İzni ile Türkiye'de Güvence Altına Alın!`}
         </h2>
         <p className="text-gray-700">
-          Özel durumlar nedeniyle Türkiye’de kalması gereken bireyler için
+          {`Özel durumlar nedeniyle Türkiye’de kalması gereken bireyler için
           hazırlanan insani ikamet izni başvuru sürecinde, tüm belgelerinizin
           eksiksiz ve doğru şekilde hazırlanmasını sağlıyor, süreci hızlı ve
-          güvenilir bir şekilde yönetiyoruz.
+          güvenilir bir şekilde yönetiyoruz.`}
         </p>
       </div>
 
@@ -23,8 +23,8 @@ const InsaniIkametIzniComponent = () => {
           Kimler İnsani İkamet Başvurusu Yapabilir?
         </h3>
         <ul className="list-disc pl-5 text-gray-800 space-y-2">
-          <li>İnsani sebeplerle Türkiye’de kalması gereken bireyler</li>
-          <li>Sağlık veya ailevi nedenlerle destek arayanlar</li>
+          <li>{`İnsani sebeplerle Türkiye’de kalması gereken bireyler`}</li>
+          <li>{`Sağlık veya ailevi nedenlerle destek arayanlar`}</li>
           <li>Zorunlu durumlarda ikamet iznine ihtiyaç duyanlar</li>
           <li>Siyasi, insani veya sosyal nedenlerle başvuru yapanlar</li>
         </ul>
@@ -36,10 +36,10 @@ const InsaniIkametIzniComponent = () => {
           İkamet Başvuru Süreç Adımları
         </h3>
         <ol className="list-decimal pl-5 text-gray-800 space-y-2">
-          <li>Başvuru dosyasının hazırlanması</li>
-          <li>Gerekli belgelerin toplanması</li>
-          <li>Resmi kurumlara başvurunun yapılması</li>
-          <li>Sürecin düzenli takibi ve sonuçlandırılması</li>
+          <li>{`Başvuru dosyasının hazırlanması`}</li>
+          <li>{`Gerekli belgelerin toplanması`}</li>
+          <li>{`Resmi kurumlara başvurunun yapılması`}</li>
+          <li>{`Sürecin düzenli takibi ve sonuçlandırılması`}</li>
         </ol>
       </div>
 

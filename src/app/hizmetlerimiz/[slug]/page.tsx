@@ -103,7 +103,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const query = await params;
   const service = services.find((s) => s.metadata.slug === query.slug);
@@ -117,7 +117,7 @@ export async function generateMetadata({
 export default async function ServicePage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
   const query = await params;
   const service = services.find((s) => s.metadata.slug === query.slug);

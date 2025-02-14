@@ -1,9 +1,8 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { FaBars, FaChevronDown } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 import { links } from "@/utils/data";
 
 type Props = {

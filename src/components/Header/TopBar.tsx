@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { MdPhone, MdEmail, MdLocationOn } from "react-icons/md";
 import { SiGmail } from "react-icons/si";
 
