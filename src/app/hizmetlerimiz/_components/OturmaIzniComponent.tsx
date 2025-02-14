@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaCheckCircle, FaUsers } from "react-icons/fa";
 
 const OturmaIzniComponent = () => {
@@ -122,9 +123,14 @@ const OturmaIzniComponent = () => {
           📞 0 549 565 6868 | 📧 yurtdanismanlikk@gmail.com
           <br />⌚ Pazartesi-Cumartesi 09:00-18:00
         </p>
-        <button className="bg-primary text-white px-6 py-3 rounded-full hover:opacity-90 transition">
+        <Link
+          href="https://wa.me/905495656868"
+          passHref
+          aria-label="WhatsApp"
+          className="bg-primary text-white px-6 py-3 rounded-full hover:opacity-90 transition"
+        >
           Ücretsiz Danışmanlık Al
-        </button>
+        </Link>
       </div>
     </div>
   );
