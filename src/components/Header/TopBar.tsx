@@ -14,7 +14,7 @@ const TopBar: React.FC = () => {
           </span>
           <span className="flex items-center space-x-1">
             <MdEmail className="text-gray-600" />
-            <span>yurtdanismanlik@gmail.com</span>
+            <span>yurtdanismanlikk@gmail.com</span>
           </span>
           <span className="flex items-center space-x-1">
             <MdLocationOn className="text-gray-600" />
