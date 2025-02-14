@@ -57,8 +57,8 @@ export default function Contact() {
                     <div>
                       <h4 className="text-lg font-semibold">Adres</h4>
                       <p className="text-gray-600">
-                        Osmanağa mahallesi vahapbey sok no 16 fırıncıoğlu iş
-                        merkezi 3.kat 301 numara Kadıköy Istanbul
+                        Osmanağa Mahallesi, Vahapbey Sokak No: 16, Fırıncıoğlu
+                        İş Merkezi, 3. Kat, 301 Numara, Kadıköy, İstanbul
                       </p>
                     </div>
                   </div>
@@ -69,10 +69,10 @@ export default function Contact() {
                     <div>
                       <h4 className="text-lg font-semibold">E-Posta</h4>
                       <a
-                        href="mailto:rahimdarilmaz@gmail.com"
+                        href="mailto:yurtdanismanlikk@gmail.com"
                         className="text-gray-600 underline"
                       >
-                        rahimdarilmaz@gmail.com
+                        yurtdanismanlikk@gmail.com
                       </a>
                     </div>
                   </div>

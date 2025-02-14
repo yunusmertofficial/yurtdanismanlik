@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { MdPhone, MdEmail, MdLocationOn } from "react-icons/md";
 import { SiGmail } from "react-icons/si";
 
@@ -22,18 +22,22 @@ const TopBar: React.FC = () => {
           </span>
         </div>
         <div className="flex items-center space-x-3">
-          {/*          <Link
-            href="https://www.instagram.com/yurtdanismanlik/"
+          <Link
+            href="https://www.instagram.com/yurtdanismanlikk/"
             aria-label="Instagram"
           >
             <FaInstagram className="text-gray-600 hover:text-pink-600 cursor-pointer" />
-          </Link> */}
-          <Link href="mailto:rahimdarilmaz@gmail.com" aria-label="Gmail">
+          </Link>
+          <Link href="mailto:yurtdanismanlikk@gmail.com" aria-label="Gmail">
             <SiGmail className="text-gray-600 hover:text-red-600 cursor-pointer" />
           </Link>
-          {/*    <Link href="https://www.youtube.com/" aria-label="Youtube">
-            <FaYoutube className="text-gray-600 hover:text-red-500 cursor-pointer" />
-          </Link> */}
+          <Link
+            href="https://www.facebook.com/yurtdanismanlikk/"
+            className="w-9 h-9 bg-muted flex justify-center items-center rounded-full hover:bg-primary transition-all"
+            aria-label="LinkedIn"
+          >
+            <FaFacebook className="text-foreground" />
+          </Link>
           <Link href="https://wa.me/905495656868" aria-label="Whatsapp">
             <FaWhatsapp className="text-gray-600 hover:text-green-500 cursor-pointer" />
           </Link>

@@ -56,6 +56,14 @@ const EvlilikIslemleriComponent = () => {
             { title: "Adli Sicil Kaydı", desc: "Temiz adli sicil belgesi" },
             { title: "Fotoğraflar", desc: "Çiftin biyometrik fotoğrafları" },
             { title: "İkametgah Belgesi", desc: "Geçerli ikametgah belgesi" },
+            {
+              title: "Doğum Belgesi (Apostilli)",
+              desc: "Başvuru için gereken evraklardan biri",
+            },
+            {
+              title: "Bekarlık Belgesi (Apostilli)",
+              desc: "Yabancıdan istenilecek olan evrak",
+            },
           ].map((doc, idx) => (
             <div
               key={idx}
@@ -74,7 +82,7 @@ const EvlilikIslemleriComponent = () => {
           Hemen Başvurun!
         </h3>
         <p className="text-gray-700 mb-4">
-          📞 0 549 565 6868 | 📧 rahimdarilmaz@gmail.com
+          📞 0 549 565 6868 | 📧 yurtdanismanlikk@gmail.com
           <br />⌚ Pazartesi-Cumartesi 09:00-18:00
         </p>
         <button className="bg-primary text-white px-6 py-3 rounded-full hover:opacity-90 transition">

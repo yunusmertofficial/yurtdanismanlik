@@ -26,7 +26,7 @@ const HeroCarousel = () => {
       format: "jpg",
       title: "OTURMA İZNİ DANIŞMANLIĞI",
       description:
-        "Oturma iznine Özgür Danışmanlık ile Formalitelerle Uğraşmadan Sahip Olun!",
+        "Oturma iznine Yurt Danışmanlık ile Formalitelerle Uğraşmadan Sahip Olun!",
     },
     {
       id: 2,

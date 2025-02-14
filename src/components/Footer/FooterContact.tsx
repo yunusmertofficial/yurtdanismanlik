@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
@@ -23,26 +23,26 @@ export const FooterContact = () => {
         </li>
         <li className="flex mt-4 space-x-4">
           <Link
-            href="mailto:rahimdarilmaz@gmail.com"
+            href="mailto:yurtdanismanlikk@gmail.com"
             className="w-9 h-9 bg-muted flex justify-center items-center rounded-full hover:bg-primary transition-all"
             aria-label="Facebook"
           >
             <SiGmail className="text-foreground" />
           </Link>
-          {/*     <Link
-            href="https://instagram.com/yurtdanismanlik"
+          <Link
+            href="https://instagram.com/yurtdanismanlikk"
             className="w-9 h-9 bg-muted flex justify-center items-center rounded-full hover:bg-primary transition-all"
             aria-label="Instagram"
           >
             <FaInstagram className="text-foreground" />
           </Link>
           <Link
-            href="https://www.youtube.com/channel/UC3qqkhOpd8YYLrlacBT6Exw"
+            href="https://www.facebook.com/yurtdanismanlikk/"
             className="w-9 h-9 bg-muted flex justify-center items-center rounded-full hover:bg-primary transition-all"
             aria-label="LinkedIn"
           >
-            <FaYoutube className="text-foreground" />
-          </Link> */}
+            <FaFacebook className="text-foreground" />
+          </Link>
           <Link
             href="https://wa.me/905495656868"
             className="w-9 h-9 bg-muted flex justify-center items-center rounded-full hover:bg-primary transition-all"
