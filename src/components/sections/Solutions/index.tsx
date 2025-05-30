@@ -67,11 +67,11 @@ const Hizmetler = () => {
       link: "/hizmetlerimiz/evlilik-islemleri",
     },
     {
-      title: "Konsolosluk İşlemleri",
+      title: "Üniversite Kayıt İşlemleri",
       description:
-        "Pasaport yenileme, noter onayları ve diğer konsolosluk işlemleriniz için danışmanlık sağlıyoruz.",
-      icon: <FaUniversity />,
-      link: "/hizmetlerimiz/konsolosluk-islemleri",
+        "Türkiye’de üniversite eğitimi almak isteyen öğrenciler için başvuru ve kayıt süreçlerinde uzman danışmanlık hizmeti sunuyoruz.",
+      icon: <FaUniversity />, // İstersen farklı bir ikon da seçebilirsin
+      link: "/hizmetlerimiz/universite-kayit-islemleri",
     },
   ];
 
