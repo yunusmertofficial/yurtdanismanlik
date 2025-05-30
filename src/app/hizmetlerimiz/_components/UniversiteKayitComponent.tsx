@@ -10,9 +10,9 @@ const UniversiteKayitComponent = () => {
           Üniversite Kayıt İşlemleri Danışmanlığı ile Geleceğine Yön Ver!
         </h2>
         <p className="text-gray-700">
-          Türkiye'deki üniversitelerde eğitim almak isteyen yabancı öğrenciler
+          {`Türkiye'deki üniversitelerde eğitim almak isteyen yabancı öğrenciler
           için başvuru, kabul ve kayıt süreçlerinde profesyonel destek
-          sağlıyoruz.
+          sağlıyoruz.`}
         </p>
       </div>
 
