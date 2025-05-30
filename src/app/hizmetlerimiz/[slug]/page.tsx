@@ -11,6 +11,7 @@ import YurtDisiVizeIslemleriComponent from "../_components/YurtDisiVizeIslemleri
 import InsaniIkametIzniComponent from "../_components/InsaniIkametIzniComponent";
 import EvlilikIslemleriComponent from "../_components/EvlilikIslemleriComponent";
 import KonsoloslukIslemleriComponent from "../_components/KonsoloslukIslemleriComponent";
+import UniversiteKayitComponent from "../_components/UniversiteKayitComponent";
 
 const services = [
   {
@@ -92,6 +93,16 @@ const services = [
       image: "/images/hizmetlerimiz/konsolosluk.jpg",
     },
     component: KonsoloslukIslemleriComponent,
+  },
+  {
+    metadata: {
+      slug: "universite-kayit-islemleri",
+      title: "Üniversite Kayıt İşlemleri",
+      description:
+        "Türkiye’de üniversite eğitimi almak isteyen öğrenciler için başvuru ve kayıt süreci desteği sunuyoruz.",
+      image: "/images/hizmetlerimiz/universite.jpg", // görseli uygun şekilde eklemeyi unutma
+    },
+    component: UniversiteKayitComponent,
   },
 ];
 

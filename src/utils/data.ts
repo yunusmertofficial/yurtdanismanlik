@@ -69,6 +69,11 @@ export const links: LinkItem[] = [
         label: "Konsolosluk İşlemleri",
         href: "/hizmetlerimiz/konsolosluk-islemleri",
       },
+      {
+        id: 9,
+        label: "Üniversite Kayıt İşlemleri",
+        href: "/hizmetlerimiz/universite-kayit-islemleri",
+      },
     ],
   },
   {
